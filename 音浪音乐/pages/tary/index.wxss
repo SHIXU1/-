@@ -1,0 +1,100 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.web{
+  width: 100%;
+  height: 100%;
+   background: #e6e6e6;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  width: 90%;
+  height: 100rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size:45rpx;
+  padding-left: 5%;
+}
+.topimg{
+  width: 80rpx;
+  height: 80rpx;
+ 
+}
+.box{
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+ 
+}
+.boxtop{
+  width: 90%;
+  height: 400rpx;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+  border-radius: 25rpx;
+  margin-left: 5%;
+  background: linear-gradient(to right, #702eff, #bd2eff);
+}
+.dl{
+  width: 33%;
+  height: 150rpx;
+  display: flex;
+  justify-content: center;
+ margin-top: 50rpx;
+ color: #fff;
+}
+.dl>image{
+  width: 35rpx;
+  height: 35rpx;
+  margin-top: 5rpx;
+}
+.dd{
+  margin-left: 8rpx;
+}
+.dlp{
+  font-size: 40rpx;
+}
+.div{
+  width: 90%;
+  height: 320rpx;
+  margin-left: 5%;
+  margin-top: 40rpx;
+  background: #fff;
+  border-radius: 25rpx;
+}
+.divtop{
+  width: 100%;
+  height: 80rpx;
+  align-items: center;
+  display: flex;
+}
+.divtop>image{
+  width: 10rpx;
+  height: 40rpx;
+}
+.divsize{
+  margin-left: 20rpx;
+}
+.divimg{
+  width: 90%;
+  height: 150rpx;
+  margin-left: 5%;
+  display: flex;
+}
+.divdl{
+  width: 23%;
+  height: 100%;
+  margin-left: 2%;
+  text-align: center;
+  font-size: 30rpx;
+}
+.divdl>image{
+ width: 100%;
+  height: 150rpx;
+  margin-left: 2%;
+}
+

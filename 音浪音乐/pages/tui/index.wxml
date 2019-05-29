@@ -1,0 +1,19 @@
+<view class="web">
+  <view class='top'>
+    <input placeholder='请输入你想看的古诗' class='int' bindinput='change' value='{{value}}'></input>
+    <view class='span'>取消</view>
+  </view>
+  <view class='box'>
+    <view class='{{dispaly==true?"box1":"aa"}}' wx:for="{{list}}" wx:key="{{index}}">
+      <view class='title'>{{item.title}}</view>
+      <view class='name'>{{item.authors}}</view>
+      <view class='text'>{{item.content}}</view>
+    </view>
+    <view class='{{dispaly==true?"aa":"div"}}' wx:for="{{data}}" wx:key="{{index}}">
+      <view class='title'>{{item.title}}</view>
+      <view class='name'>{{item.authors}}</view>
+      <view class='text'>{{item.content}}</view>
+    </view>
+  </view>
+
+</view>

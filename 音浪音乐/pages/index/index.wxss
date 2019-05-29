@@ -1,0 +1,264 @@
+page {
+  width: 100%;
+  height: 100%;
+}
+
+.warp {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  
+}
+.webtop{
+  width: 100%;
+  height: 100%;
+  background:rgba(0, 0, 0,0.5);
+  filter: (5px);
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.web {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  width: 100%;
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+}
+
+.topimg {
+  width: 55rpx;
+  height: 55rpx;
+  margin-left: 30rpx;
+}
+
+.topspan {
+  width: 500rpx;
+  height: 70rpx;
+  border-radius: 50rpx;
+  background: #f1f1f1;
+  margin-left: 30rpx;
+  display: flex;
+  align-items: center;
+}
+
+.soso {
+  width: 45rpx;
+  height: 45rpx;
+  margin-left: 30rpx;
+}
+
+.topsize {
+  color: #cbcbcb;
+  margin-left: 30rpx;
+}
+
+.box {
+  width: 100%;
+  flex: 1;
+  overflow-y: auto;
+  margin-top: 10rpx;
+}
+
+.boxtop {
+  width: 100%;
+  height: 340rpx;
+}
+
+.item {
+  width: 80%;
+  height: 80%;
+}
+
+.lunimg {
+  width: 100%;
+  height: 100%;
+}
+
+.fenlei {
+  width: 100%;
+  height: 150rpx;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.dl {
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+
+.dl>image {
+  width: 100rpx;
+  height: 100rpx;
+}
+
+.tbook {
+  width: 100%;
+  height: 60rpx;
+  margin-top: 50rpx;
+  display: flex;
+  justify-content: space-between;
+}
+
+.tbookp {
+  display: flex;
+}
+
+.timg {
+  width: 20rpx;
+  height: 50rpx;
+}
+
+.ttext {
+  margin-left: 10rpx;
+  font-weight: 600;
+}
+
+.tright {
+  display: flex;
+  margin-right: 30rpx;
+}
+
+.timgt {
+  width: 40rpx;
+  height: 45rpx;
+  margin-top: 7rpx;
+}
+
+.tdl {
+  width: 100%;
+  height: 300rpx;
+  margin-top: 20rpx;
+}
+
+.dls {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  white-space: wrap;
+}
+
+.dian {
+  width: 500rpx;
+  height: 100%;
+  margin-left: 40rpx;
+  text-align: center;
+  flex-shrink: 0;
+  /* white-space: wrap; */
+}
+
+.dianimg {
+  width: 100%;
+  height: 230rpx;
+}
+
+.dltext {
+  font-weight: 600;
+}
+
+.tbookdiv {
+  width: 100%;
+  height: 600rpx;
+  margin-top: 20rpx;
+}
+
+.book {
+  width: 95%;
+  height: 200rpx;
+  margin-left: 5%;
+  display: flex;
+  margin-top: 20rpx;
+}
+
+.bookleft {
+  width: 300rpx;
+  height: 200rpx;
+}
+
+.bookright {
+  flex: 1;
+  height: 100%;
+  margin-left: 10rpx;
+}
+
+.bookimg {
+  width: 40rpx;
+  height: 30rpx;
+}
+
+.bookimgs {
+  width: 30rpx;
+  height: 40rpx;
+}
+
+.bookname {
+  font-size: 35rpx;
+  font-weight: 600;
+}
+
+.booktext {
+  font-size: 30rpx;
+  margin-top: 10rpx;
+}
+
+.jianb {
+  background: linear-gradient(to right, #702eff, #bd2eff);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.bookp {
+  display: flex;
+}
+
+.booksize {
+  display: flex;
+  align-items: center;
+  margin-top: 35rpx;
+  font-size: 30rpx;
+}
+
+.ji {
+  display: flex;
+  align-items: center;
+  margin-top: 35rpx;
+  font-size: 30rpx;
+  margin-left: 40rpx;
+  color: #b0b0b0;
+}
+
+.cbox {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20rpx;
+}
+
+.cdiv {
+  width: 30%;
+  height: 300rpx;
+  margin-left: 3%;
+  text-align: center;
+  font-size: 30rpx;
+}
+
+.cdiv>image {
+  width: 100%;
+  height: 220rpx;
+}
+.let{
+  width: 30%;
+  height: 100%;
+}
+.let>image{
+  width: 100%;
+  height: 100%;
+}

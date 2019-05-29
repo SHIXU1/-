@@ -1,0 +1,19 @@
+<view class="web">
+  <view class='top'>
+    <input placeholder='请输入歌曲名字' class='int' bindinput='change' value='{{value}}'></input>
+    <view class='qu'>取消</view>
+  </view>
+  <view class='box'>
+    <view class='{{dispaly==true?"":"boxleft"}}'>
+      <view class='boxtop'>历史搜索</view>
+      <view class='p'>
+        <view wx:for="{{li}}" wx:key="{{index}}" class='span'>{{item.name}}</view>
+      </view>
+    </view>
+    <view class='{{dispaly==true?"boxleft":""}}'>
+        <view wx:for="{{data}}" wx:key="{{index}}" class='name' bindtap='click' data-item='{{item}}'>
+            <view class='title'>{{item.title}}</view>
+        </view>
+    </view>
+  </view>
+</view>

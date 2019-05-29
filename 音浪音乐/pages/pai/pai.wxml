@@ -1,0 +1,18 @@
+<view class="web">
+    <view class='top'>
+        <scroll-view
+          scroll-x="true"
+        >
+         <view wx:for="{{navlist}}" wx:key="{{index}}" class='span' bindtap='click' data-index='{{index}}'>{{item.name}}</view>
+        </scroll-view>
+    </view>
+    <view class='box'>
+      <view wx:for="{{arr}}" wx:key="{{index}}" class='div'>
+          <image src='{{item.pic_big}}' class='img'></image>
+          <view class='size'>
+             <view>{{item.title}}</view>
+             <view class='right'>{{item.author}} <view class='aa'>试听</view></view>
+          </view>
+      </view>
+    </view>
+</view>

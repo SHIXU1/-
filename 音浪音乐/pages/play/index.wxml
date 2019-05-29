@@ -1,0 +1,9 @@
+<view class="web">
+  <view class='box'>
+      <image src='http://129.28.177.240:3000/images/play.jpg'></image>
+        <view class='p'>直播功能暂未开通！</view>
+  </view>
+  
+  
+ 
+</view>

@@ -1,0 +1,46 @@
+{
+  "pages": [
+   
+    "pages/index/index",
+    "pages/soso/soso",
+    "pages/pai/pai",
+    "pages/bofang/bof",
+    "pages/logs/logs",
+    "pages/play/index",
+    "pages/tary/index",
+    "pages/tui/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "音浪音乐",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "iconPath": "./images/tabbar_22.jpg",
+      "selectedIconPath": "./images/tabbar_12.jpg"
+    },{
+      "pagePath": "pages/logs/logs",
+      "iconPath": "./images/tabbar_24.jpg",
+      "selectedIconPath": "./images/tabbar_06.jpg"
+    },{
+      "pagePath": "pages/play/index",
+      "iconPath": "./images/tabbar_03.jpg",
+      "selectedIconPath": "./images/tabbar_03.jpg"
+    },
+    {
+      "pagePath": "pages/tui/index",
+      "iconPath": "./images/tabbar_25.jpg",
+      "selectedIconPath": "./images/tabbar_09.jpg"
+    },
+    {
+      "pagePath": "pages/tary/index",
+      "iconPath": "./images/tabbar_26.jpg",
+      "selectedIconPath": "./images/tabbar_15.jpg"
+    }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+<view class="web">
+    <view class='box' wx:for="{{list}}" wx:key="{{index}}">
+       <view class='top'>
+            <image src='{{item.header}}'></image>
+            <view class='names'>{{item.name}}</view>
+       </view>
+       <view class='p'>{{item.text}}</view>
+        <video src='{{item.video}}' controls="true" class='video' object-fit="fill"></video>
+    </view>
+   
+</view>

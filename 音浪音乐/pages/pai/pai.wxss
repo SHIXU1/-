@@ -1,0 +1,56 @@
+page{
+  width: 100%;
+  height: 100%;
+}
+.web{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.top{
+  width: 100%;
+  height: 100rpx;
+  border-bottom: 1px solid #ccc;  
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+}
+.span{
+  display: inline-block;
+  padding: 10rpx 5rpx;
+  margin-left: 40rpx;
+  flex-shrink: 0;
+}
+.box{
+  width: 100%;
+  flex: 1;
+}
+.div{
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #ccc;
+  height: 200rpx;
+  display: flex;
+  margin-top: 30rpx;
+}
+.img{
+  width: 40%;
+  height: 90%;
+}
+.size{
+  flex: 1;
+  height: 100%;
+  margin-left: 20rpx;
+}
+.right{
+  display: flex;
+  align-items: center;
+  margin-top: 20rpx;
+}
+.aa{
+  padding: 10rpx 20rpx;
+  border-radius: 25rpx;
+  margin-left: 30rpx;
+  background: linear-gradient(to right, #702eff, #bd2eff);
+}

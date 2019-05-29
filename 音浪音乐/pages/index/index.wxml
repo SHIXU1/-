@@ -1,0 +1,100 @@
+<view class='warp'>
+  <view class="web">
+    <view class='top'>
+      <image src='http://129.28.177.240:3000/images/qiehuan_03.jpg' class='topimg' bindtap='tankuang'></image>
+      <view class='topspan'>
+        <image src='http://129.28.177.240:3000/images/a_03.jpg' class='soso'></image>
+        <view class='topsize' bindtap='soso'>搜索歌曲/艺人</view>
+      </view>
+      <view></view>
+    </view>
+    <view class='box'>
+      <view class='boxtop'>
+        <swiper circular="true">
+          <block wx:for="{{img}}" wx:key="{{index}}">
+            <swiper-item class="item">
+              <image src='{{item.img}}' class='lunimg'></image>
+            </swiper-item>
+          </block>
+        </swiper>
+      </view>
+      <view class='fenlei'>
+        <view class='dl' wx:for="{{dl}}" wx:key="{{index}}" bindtap='paihang' data-item='{{index}}'>
+          <image src='{{item.img}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+      </view>
+      <view class='tbook'>
+        <view class='tbookp'>
+          <image src="http://129.28.177.240:3000/images/box_02.jpg" class='timg'></image>
+          <view class='ttext'>电台</view>
+        </view>
+        <view class='tright'>
+          <view>更多</view>
+          <image src='http://129.28.177.240:3000/images/box_05.jpg' class='timgt'></image>
+        </view>
+      </view>
+      <view class='tdl'>
+        <scroll-view scroll-x style="width: 100%;">
+          <view class='dls'>
+            <view class='dian' wx:for="{{tdl}}" wx:key="{{index}}">
+              <image src='{{item.img}}' class='dianimg'></image>
+              <view class='dltext'>{{item.name}}</view>
+            </view>
+          </view>
+
+        </scroll-view>
+      </view>
+      <view class='tbook'>
+        <view class='tbookp'>
+          <image src="http://129.28.177.240:3000/images/box_02.jpg" class='timg'></image>
+          <view class='ttext'>听书</view>
+        </view>
+        <view class='tright'>
+          <view>更多</view>
+          <image src='http://129.28.177.240:3000/images/box_05.jpg' class='timgt'></image>
+        </view>
+      </view>
+      <view class='tbookdiv'>
+        <view class='book' wx:for="{{tbook}}" wx:key="{{index}}">
+          <image src='{{item.img}}' class='bookleft'></image>
+          <view class='bookright'>
+            <view class='bookname'>{{item.name}}</view>
+            <view class='booktext'>{{item.texte}}</view>
+            <view class='bookp'>
+              <view class='booksize'>
+                <image src='{{item.imgs}}' class='bookimg'></image>
+                <view class='jianb'>{{item.size}}</view>
+              </view>
+              <view class='ji'>
+                <image src='{{item.imgs2}}' class='bookimgs'></image>
+                <view>{{item.ji}}</view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+      <view class='tbook'>
+        <view class='tbookp'>
+          <image src="http://129.28.177.240:3000/images/box_02.jpg" class='timg'></image>
+          <view class='ttext'>猜你喜欢</view>
+        </view>
+        <view class='tright'>
+          <view>更多</view>
+          <image src='http://129.28.177.240:3000/images/box_05.jpg' class='timgt'></image>
+        </view>
+      </view>
+      <view class='cbox'>
+        <view class='cdiv' wx:for="{{cai}}" wx:key="{{index}}">
+          <image src="{{item.img}}"></image>
+          <view>{{item.name}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='{{dispaly==true?"":"webtop"}}' bindtap='yincang'>
+    <view class='let'>
+      <image src='http://129.28.177.240:3000/images/tankuang.jpg'></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,41 @@
+<view class="web">
+  <view class='top'>
+    <view>我的音乐</view>
+    <image src='http://129.28.177.240:3000/images/mytop_03.jpg' class='topimg'></image>
+  </view>
+  <view class='box'>
+    <view class='boxtop'>
+      <view class='dl' wx:for="{{list}}" wx:key="{{index}}">
+        <image src='{{item.img}}'></image>
+        <view class='dd'>
+          <view>{{item.name}}</view>
+          <view class='dlp'>{{item.num}}</view>
+        </view>
+      </view>
+    </view>
+    <view class='div' wx:for="{{data}}" wx:key="{{index}}">
+      <view class='divtop'>
+        <image src='{{item.navimg}}'></image>
+        <view class='divsize'>{{item.name}}</view>
+      </view>
+      <view class='divimg'>
+        <view class='divdl'>
+          <image src='{{item.navimg1}}'></image>
+          <view>{{item.text1}}</view>
+        </view>
+        <view class='divdl'>
+          <image src='{{item.navimg2}}'></image>
+          <view>{{item.text2}}</view>
+        </view>
+        <view class='divdl'>
+          <image src='{{item.navimg3}}'></image>
+          <view>{{item.text3}}</view>
+        </view>
+        <view class='divdl'>
+          <image src='{{item.navimg4}}'></image>
+          
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
